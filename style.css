@@ -42,6 +42,16 @@ body {
     transition: color 2s;
 }
 
+.project {
+    padding: 15px;
+}
+
+.project:hover {
+    color: white;
+    transition: color 2s;
+    word-spacing: 10px;
+}
+
 .card:hover:before,
 .card:hover:after {
     animation: none;
@@ -89,20 +99,13 @@ body {
 }
 
 a {
-    color: #212534;
+    color: #2c303d;
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
     margin-top: 2rem;
-}
-
-h5 {
-    color: #151721;
-}
-
-h3:hover {
-    color: rgb(103, 39, 175), white;
-    transition: .5s;
+    cursor: pointer;
+    opacity: .7;
 }
 
 img {
@@ -126,5 +129,11 @@ p {
 }
 
 .contact {
-    padding-bottom: 10px;
+    padding: 20px;
+}
+
+.contact a {
+    padding: 10px;
+    color: white;
+    opacity: .3;
 }
